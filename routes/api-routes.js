@@ -19,7 +19,7 @@ module.exports = function(app) {
     app.post("/search", (req, res) => {
         // set bookTitle to the req.body.title with spaces replaced with plus signs(+)
         let bookTitle = req.body.title.replace(/\s/g, "+");
-        let GBOOKS_KEY='AIzaSyDWMhMX2b41poApzFWMIcanjV5WIiciwR8';
+        let GBOOKS_KEY='';
         axios.get(
             // <script src="https://www.googleapis.com/books/v1/volumes?q=harry+potter&callback=handleResponse"></script>
 
