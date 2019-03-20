@@ -1,5 +1,5 @@
 nav {
-  background-color: #f9c411;
+  background-color: #31247a;
   padding: 1rem 0;
 }
 
@@ -21,7 +21,8 @@ nav a:hover {
   height: 100%;
 }
 nav a:visited {
-  color: #33658A;
+  color: white;
+  font-size: 30px;
 }
 
 header h1 {
@@ -70,7 +71,7 @@ input {
 button {
   border-radius: 0;
   border: none;
-  background-color: #f9c411;
+  background-color: #33658A;
   color: white;
   padding: .75vw;
   font-size: 1.25vw;
@@ -79,10 +80,11 @@ button {
 form button {
   position: absolute;
   right: 0;
+  /* font-size: 40px; */
 }
 
 button[disabled] {
-  background-color: #f9e39f;
+  background-color: rgb(130, 150, 165);
 }
 
 #resultsContainer {
