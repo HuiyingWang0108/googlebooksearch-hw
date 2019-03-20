@@ -12,8 +12,11 @@ if (process.env.NODE_ENV === "production") {
 }
 
 const mongoose = require("mongoose");
-const mongoURL = process.env.PROD_MONGODB || "mongodb://localhost:27017/googlebooks"
-mongoose.connect(mongoURL, {useNewUrlParser: true})
+//Created mongolab-clear-46709 as MONGODB_URI
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/googlebooks"
+mongoose.connect(MONGODB_URI, {useNewUrlParser: true})
+// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/myScraper";
+// mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
   .then(() => {
     console.log("🗄 ==> Successfully connected to mongoDB.");
   })
