@@ -9,7 +9,7 @@
 ### 1. Open MAC Terminal: run mongod
 ### 2. git clone https://github.com/HuiyingWang0108/googlebooksearch-hw.git
 ### 3. cd googlebooksearch-hw
-### 4. open terminal run "npm install"
+### 4. open terminal run "npm install", To create a production build, use "npm run build".
 ### 5. open terminal run "npm start"
 ### 6. http://localhost:3000
 
